@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "sign up to face book",
+        "description": "",
+        "id": "create-new-facebook-account;sign-up-to-face-book",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24215499576,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "lanch the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.lanch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1477164474,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user gives first name \"dhanapal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanapal",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.user_gives_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 258736413,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user gives lastname \"thimmarayan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thimmarayan",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.user_gives_lastname(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 207749484,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user gives mobile number \"9943395649\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9943395649",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinition.user_gives_mobile_number(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 326581105,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user gives password \"321kavi@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "321kavi@",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.user_gives_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 404011109,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user gives day \"16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_gives_day(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146818453,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user gives month \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.user_gives_month(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 186209749,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user gives year \"1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1992",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.user_gives_year(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 165102777,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click gender",
+            "match": {
+              "location": "StepDefinition.user_click_gender()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26321,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click signup",
+            "match": {
+              "location": "StepDefinition.user_click_signup()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "create new facebook account",
+    "description": "",
+    "id": "create-new-facebook-account",
+    "keyword": "Feature",
+    "uri": "Facebook.feature"
+  }
+]
